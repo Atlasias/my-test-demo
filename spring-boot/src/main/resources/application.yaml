@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /
+  port: 8081
+    
+logging:
+    level:
+      root: DEBUG
+      
+app-settings:
+  server-name: MYSERVER
+  corp-code: CJ-ONS
