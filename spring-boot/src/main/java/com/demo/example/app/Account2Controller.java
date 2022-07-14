@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.demo.example.config.AppSettingConfig;
-import com.demo.example.config.ConfigCaller;
 
 @Lazy
 @RestController
@@ -21,7 +20,7 @@ public class Account2Controller {
 	
 	public Account2Controller(@Autowired AppSettingConfig appSettingConfig) {
 		MY_SERVER_E = appSettingConfig.getServerName();
-		 MY_CORP_E = appSettingConfig.getCorpCode();
+		MY_CORP_E = appSettingConfig.getCorpCode();
 	}
 	
 	
